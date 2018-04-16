@@ -3,17 +3,13 @@
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   padding-left: 100px;
   max-width: 900px;
   border: $borderSize solid $secondaryColor;
   border-top: none;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-
   &__title {
     position: absolute;
     top: 0;
@@ -49,9 +45,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    margin:0 20px;
     }
-    
+    &__text-name {
+      margin-bottom:0;
+    }
   &__image {
     width: 80px;
     height: 80px;
@@ -65,8 +63,6 @@
     line-height: 24px;
     &-name {
       text-transform: uppercase;
-      margin-top:30px;
-      margin-bottom:10px;
     }
   }
   &--white {
@@ -83,4 +79,8 @@
     }
   }
 }
- 
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }

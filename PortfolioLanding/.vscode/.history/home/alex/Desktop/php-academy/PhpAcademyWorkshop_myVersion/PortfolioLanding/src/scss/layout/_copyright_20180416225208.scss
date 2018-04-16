@@ -1,0 +1,21 @@
+.copyright {
+    width:300px;
+    font-family: $primaryFont;
+    font-size:14px;
+    margin: 50px auto;
+    position: relative;
+    &:before {
+        content:'';
+        display:block;
+        width:35px;
+        height:35px;
+        border: 1px solid black;
+        background-image: url('.././img/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left:-30px;
+
+    }
+}
