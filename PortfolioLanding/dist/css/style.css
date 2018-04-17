@@ -486,24 +486,24 @@ template {
   padding-bottom: 150px; }
 
 .copyright {
-  width: 300px;
+  width: 400px;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   margin: 50px auto;
   position: relative; }
-  .copyright:before {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    border: 1px solid black;
-    background-image: url(".././img/logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: -70px;
-    top: -10px; }
+  .copyright__text {
+    display: inline-block;
+    vertical-align: middle; }
+
+.logo-small {
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/logo-black.png");
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px; }
 
 .button {
   color: white;
